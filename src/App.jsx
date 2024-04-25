@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect} from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import Navber from './Component/Navber/Navber';
@@ -21,7 +21,7 @@ const App = () => {
   })
 
   return ( 
-    <div className='overflow-x-hidden'>
+    <div >
       <Navber/>
       <Home/>
       <Services/>
